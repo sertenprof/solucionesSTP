@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Soluciones STP</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container header-content">
+      <div class="logo-section">
+        <img src="img/2Logo-800x279.png" alt="SOLUCIONES STP" class="logo" />
+        <div class="empresa-info">
+        </div>
+      </div>
+      <div>
+        <a href="https://wa.me/5358755513/?text=Hola+me+interesa+contactarlo" target="_blank">
+          <button class="cart-btn">WHATSAPP</button>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- BANNER -->
+  <section class="banner">
+    <div class="container">
+      <h1>SOLUCIONES STP</h1>
+      <h2>Bienvenido a Servicio de Teneduría Profesional</h2>
+      <p>Gestión comercial, contable y tributaria</p>
+    </div>
+  </section>
+
+  <!-- FILTROS -->
+  <section class="container">
+    <div class="filters">
+      <button class="filter-btn active" data-cat="todas">Todas</button>
+      <button class="filter-btn" data-cat="Comercial">Servicio Comercial</button>
+      <button class="filter-btn" data-cat="Tributario">Servicio Tributario</button>
+      <button class="filter-btn" data-cat="Legal">Servicio Legal</button>
+    </div>
+  </section>
+
+  <!-- PRODUCTOS -->
+  <section class="productos-section container">
+    <div id="productosGrid" class="productos-grid"></div>
+  </section>
+
+  <!-- MODAL -->
+  <div id="modalContactoPromo" class="modal" aria-hidden="true">
+    <div class="modal-content">
+      <div class="modal-header">
+        <strong>Información del Servicio</strong>
+        <button id="cancelModalPromo" class="btn-primary">Cerrar</button>
+      </div>
+      <div id="modalInfoBody" class="modal-body"></div>
+      <div class="modal-footer">
+        <a id="whatsappLink" href="#" target="_blank"><button class="cart-btn2">CONTACTAR POR WHATSAPP</button></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>SOLUCIONES STP</h4>
+          <p>Gestión comercial, legal y tributaria con confianza</p>
+        </div>
+        <div class="footer-section">
+          <h4>Contacto</h4>
+          <p>Calle 49 entre 22 y 24</p>
+          <p>58755513</p>
+        </div>
+        <div class="footer-section">
+          <h4>Horario</h4>
+          <p>Lunes a Sábado: 7:00 AM - 7:00 PM</p>
+          <p>Domingos: 8:00 AM - 2:00 PM</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 SOLUCIONES STP - Todos los derechos reservados</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
