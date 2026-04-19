@@ -1,2 +1,2 @@
 # solucionesSTP
-sitio web: https://solucionesstp.github.io/appsolucionesSTP
+sitio web: https://solucionesstp.github.io/solucionesSTP
